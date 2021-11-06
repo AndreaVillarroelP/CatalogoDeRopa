@@ -30,7 +30,7 @@ namespace CatalogoDeRopa.Models
         public string Talla { get; set; }
         [Required(ErrorMessage = "EL campo es requerido")]
         [Display(Name = "Precio")]
-        public decimal Precio { get; set; }
+        public int Precio { get; set; }
         public EstadoType Estado { get; set; }
 
         [Url]
