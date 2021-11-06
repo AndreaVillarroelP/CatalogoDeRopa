@@ -25,7 +25,7 @@ namespace CatalogoDeRopa.Models
         [Display(Name = "Color")]
         public string Color { get; set; }
         [Required(ErrorMessage = "EL campo es requerido")]
-        [StringLength(100, MinimumLength = 3, ErrorMessage = "Deben haber entre 3 y 100 caracteres")]
+        [StringLength(100, MinimumLength = 1, ErrorMessage = "Deben haber entre 3 y 100 caracteres")]
         [Display(Name = "Talla")]
         public string Talla { get; set; }
         [Required(ErrorMessage = "EL campo es requerido")]
